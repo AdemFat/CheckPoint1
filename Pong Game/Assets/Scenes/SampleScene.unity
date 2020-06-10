@@ -372,9 +372,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65b64e094b459504a8eeb2d0368cfb7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer1: 0
-  speed: 0
-  rb: {fileID: 0}
+  axis: Vertical1
+  speed: 5
 --- !u!1 &444340046
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,9 +517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65b64e094b459504a8eeb2d0368cfb7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer1: 0
-  speed: 0
-  rb: {fileID: 0}
+  axis: Vertical
+  speed: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &954463597
 SpriteRenderer:
   m_ObjectHideFlags: 0

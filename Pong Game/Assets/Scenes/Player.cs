@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public bool isPlayer1;
+    public string axis;
     public float speed;
-    public Rigidbody2D rb;
-
-    private float movement;
 
     // Update is called once per frame
     void Update()
     {
+        float y = Input.GetAxisRaw(axis) * speed;
+        GetComponent<Rigidbody2D>().velocity = new Vector2(0, y);
 
     }
 
